@@ -34,7 +34,11 @@ a {
 	text-transform: uppercase;
 	margin: 0 20px;
 	color: #ffffff;
+	border-bottom: 2px solid transparent;
 
+}
+a:hover{
+	border-color: white;
 }
 img{
 	margin: 40px 8px;
@@ -52,4 +56,32 @@ nav{
 	background-color: #00a6b3;
 	color: #ffffff;
 	padding: 20px 0;
+}
+footer{
+	text-transform: uppercase;
+	padding: 0 20px;
+	background-color: #0d2c40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+
+}
+.copyright{
+	float: left;
+}
+.message{
+	float: right;
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+.name{
+	color: #f15b31;
+	font-weight: 700;
 }
